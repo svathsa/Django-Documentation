@@ -54,7 +54,7 @@ Django is essentially a tool to help support your web applications. Django is a 
   <li> To integrate the urls.py of our app we create another path in our main website’s urls.py and call it:
       
     path(‘appname/’, include(‘appname.urls’))
-    </li>
+   </li>
    <li> In our views.py file we import:
         
     from django.http import HttpResponse
